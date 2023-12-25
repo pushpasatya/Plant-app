@@ -1,0 +1,69 @@
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #565656;
+    margin-top: 60px;
+    padding-top: 30px;
+    background-color: #565656;
+}
+.footerleft{
+    width: 25%;
+    height: 60vh;
+    float: left;
+}
+.footerleft a{
+    text-decoration: none;
+    color: black;
+}
+.footerright a{
+    text-decoration: none;
+    color: black;
+}
+.footerright{
+    width: 25%;
+    height: 60vh;
+    float: left;
+}
+.footerleft h3{
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+}
+.footerleft p{
+    font-size: 13px;
+    text-align: center;
+
+}
+.footerright h3{
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+}
+.footerright p{
+    font-size:13px;
+    text-align: center;
+}
+.bg2{
+    background-image: url(assits/Welcome.jpg);
+    background: position y 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 100vh;
+}
+.dark2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(26, 25, 25, 0.888);
+}
+.box {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+  }
+  .card img{
+    border-radius: 6px;
+    border-style: white;
+    transform: scale(1.1);
+ }
+ 
+ 

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <title>Home</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="assits/logo.png">
+          </a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span style="color: white;"class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse " id="collapsibleNavId" >
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                  <li class="nav-item" >
+                      <a class="nav-link" href="index.html"><span style="color: black;" >Home</span> </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Garden.html"> <span >Gardening</span>                 </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " href="Plants.html" ><span >Plant</span>           </a>
+                          <li class="nav-item">
+                              <a class="nav-link" href="seeds.html"> <span >Seeds</span></a>
+                          </li>
+                      </div>
+                  </li>
+              </ul>
+               </nav>
+  </header>
+<body>
+    <section >
+        <div class="hd">
+            <img src="assits/Hero section img.webp" alt="">
+        </div>
+    </section>
+        <section class="container-fluid multi-bg-example concept">
+            <div class="row">
+                <div
+                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5 d-flex  align-items-center">
+                   
+                    <img src="assits/pushpa.jpeg" class="img-fluid" alt="" >
+                </div>
+                <div 
+                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5 d-flex  align-items-center">
+                    <div class="text-center">
+                        <h1>About  <span class="text-success">  plants</span></h1>
+                        <p>Plants are beneficial to us in a variety of ways. Plants offer seeds such as wheat, rice, corn, and other foods that we consume on a daily basis. Plants provide us with oxygen and take in the carbon dioxide that we release. This helps maintain a balance in the ecosystem and reduces global warming</p>
+                       
+                        <button class="btn btn-outline-success  mb-5 px-5" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                            Now</button>
+                    </div>
+            </div>
+        </section>
+        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+            aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-danger" id="modalTitleId"> Book Now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="was-validated">
+                            <div class="form-floating mb-3">
+                                <input required type="text" pattern="[a-zA-Z]{}" class="form-control" name="name" id="name"
+                                    placeholder="Name">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="email" class="form-control" name="email" id="email"
+                                    placeholder="Email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="tel" pattern="[0-9]{10}" minlength="10" maxlength="10"
+                                    class="form-control" name="mobile" id="mobile" placeholder="Mobile Number">
+                                <label for="mobile">Mobile Number</label>
+                                <div class="invalid-feedback">Enter 10*digit Mobile Number</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="text" class="form-control" name="plant" id="plant"
+                                    placeholder="plant model">
+                                <label for="car">plant model</label>
+                            </div>
+    
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-outline-success">
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+    
+        </script>
+    
+    <section class="container my-5 mt-2 text-center p-5">
+        <div class="row">
+         <h1>Imported Winter
+             <span class="text-success"> Flower Bulbs</span></h1>
+         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+             <div class="card">
+                 <img class="card-img-top" src="assits/flower win 1.webp" alt="Title">
+                 <div class="card-body">
+                     <h4 class="card-title">Ranunculus Flower Bulbs</h4>  
+                 </div>
+                 <div style="margin-bottom: 8px;">
+                    <button class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                        Now</button>
+
+                 </div>
+                
+             </div>
+         </div>
+ 
+         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+             <div class="card">
+                 <img class="card-img-top" src="assits/flower win2.webp" alt="Title">
+                 <div class="card-body">
+                     <h4 class="card-title">Gladiolus Flower Bulbs</h4>
+                    
+                 </div>
+               
+                 <div style="margin-bottom: 8px;">
+                    <button class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                        Now</button>
+
+                 </div>
+                
+             </div>
+         </div>
+ 
+         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+             <div class="card">
+                 <img class="card-img-top" src="assits/flower win 3.webp" alt="Title">
+                 <div class="card-body">
+                     <h4 class="card-title">Hyacinth Flower Bulbs</h4>
+                 </div>
+               
+                 <div style="margin-bottom: 8px;">
+                    <button class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                        Now</button>
+
+                 </div>
+ 
+                
+             </div>
+         </div>
+ 
+         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+             <div class="card">
+                 <img class="card-img-top" src="assits/flower win 4.webp" alt="Title">
+                 <div class="card-body">
+                     <h4 class="card-title">Daffodil Flower Bulbs</h4>
+                    
+                 </div>
+                   
+                 <div style="margin-bottom: 8px;">
+                    <button class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                        Now</button>
+
+                 </div>
+                
+             </div>
+         </div>
+        
+
+        </div>
+     </section>
+
+        <section class="container-fluid text-center p-5 ">
+            <h1>Value For Money -<span class="text-success"> Upto 35% Off </span></h1>
+          <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3"> 
+           <figure class="fig">
+            <h5>4 Best succulents pack</h5>
+            <img src="assits/Img 1.avif" alt="">
+            <figcaption>
+                  <p> Cost:₹ 559</p>
+                <div class="card-footer">
+                <button class="btn btn-outline-success " data-bs-toggle="modal" data-bs-target="#modalId">Book
+                    Now</button>
+                </div>
+            </figcaption>
+           </figure>
+           </div>
+           
+           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3"> 
+            <figure class="fig">
+             <h5>5 best fragrant plants</h5>
+             <img src="assits/img2.webp" alt="">
+             <figcaption>
+                   <p> Cost: ₹1,459</p>
+                 <div class="card-footer">
+                 <button class="btn btn-outline-success w-50 " data-bs-toggle="modal" data-bs-target="#modalId">Book
+                     Now</button>
+                 </div>
+             </figcaption>
+            </figure>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3"> 
+                <figure class="fig">
+                 <h5>5 best indoor plants pack</h5>
+                 <img src="assits/img3.avif" alt="">
+                 <figcaption>
+                       <p>  Cost:₹1,559</p>
+                      
+                     <div class="card-footer">
+                     <button class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                         Now</button>
+                     </div>
+                 </figcaption>
+                </figure>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3"> 
+                    <figure class="fig">
+                     <h5>Plant pack for home- office</h5>
+                     <img src="assits/img 5.avif" alt="">
+                     <figcaption>
+                        <p> Cost: ₹1,059</p>
+                         <div class="card-footer">
+                         <button class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                             Now</button>
+                         </div>
+                     </figcaption>
+                    </figure>
+                </div>
+                </div>
+             </section>
+             <section class="container-fluid mt-5">
+                <div class="row">
+                    <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5 d-flex  align-items-center ">
+                    <div class="text-center">
+                    <h1> <span class="text-success"> plants</span></h1>
+                    <p>Plants are important for several reasons, especially in modern times when people spend more time indoors due to work and lifestyle changes.</p>
+                    <p>Health benefits: Plants can improve air quality by absorbing pollutants and releasing oxygen. </p>
+                    <p>Food production: Growing plants like vegetables and fruits can provide a source of fresh,</p>
+                </div>
+                </div>
+                    <div 
+                        class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5 d-flex  align-items-center">
+                        <div class="text-center">
+                            <h1> <span class="text-success">PS</span> plants</span></h1>
+                            <p>The platform also provides resources such as articles, videos, and a gardening community for enthusiasts to share their knowledge and experiences.</p>
+                           
+                            <button class="btn btn-outline-success  mb-5 px-5" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                Now</button>
+                        </div>
+                </div>
+            </section>
+        </script>
+    
+        <section class="container my-5 ">
+           <div class="row">
+            <h1 class="text-center">
+                <span class="text-success">Trending</span></h1>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card">
+                    <img class="card-img-top" src="assits/plant 1.webp" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Bonsai Plants - Upto 25% Off</h4>  
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card">
+                    <img class="card-img-top" src="assits/plant2.avif" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Ceramic Planters - Starting ₹299</h4>
+                       
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card">
+                    <img class="card-img-top" src="assits/plant3.avif" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Kokedama- Starting ₹249</h4>
+                    </div>
+    
+                   
+                </div>
+            </div>
+    
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card">
+                    <img class="card-img-top" src="assits/plant 4.avif" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title"> Gardening - Upto 65% Off</h4>
+                       
+                    </div>
+                   
+                </div>
+            </div>
+           </div>
+        </section>
+       <section class="container-fluid" style="background-color: black;">
+        <div class="footerleft">
+            <h4></h4> 
+         </div>
+     </section>
+     <section class="bg2">
+         <div class="dark2">
+         </div>
+ </section>
+ 
+       </section>
+</body>
+</html>
